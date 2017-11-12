@@ -1,2 +1,2 @@
 # MorseCode
-morse code encoder and decoder using python dictionaries
+Morse code encoder and decoder using python dictionaries.
