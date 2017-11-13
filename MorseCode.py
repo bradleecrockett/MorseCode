@@ -28,7 +28,7 @@ def morse_encoder(str_msg: str):
 # morse_decoder(".-")                   -->     "A"
 # morse_decoder(".--.-.---....----.")   -->     "PYTHON"
 def morse_decoder(morse_msg: str):
-    # TODO: Write the code for morse_decoder().
+    # TODO: Chalege - Write the code for morse_decoder().
 
     return ""
 
@@ -38,7 +38,7 @@ def main():
     print("Morse Encoder Testing")
 
 
-    # TODO: Write at least 4 tests to verify that morse_decoder() works.
+    # TODO: Challenge - Write at least 4 tests to verify that morse_decoder() works.
     print("Morse Decoder Testing")
 
 
