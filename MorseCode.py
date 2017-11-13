@@ -1,7 +1,7 @@
 # Name: First Last
 # Date:
 # Period:
-# Lab: MorseEncoder.py
+# Lab: MorseCode.py
 # Description: Students use string processing and a python dictionary to create a morse code encoder
 #
 #     Style - Code format, whitespace and PEP-8 style is followed making code easy to read.
@@ -16,10 +16,10 @@ from MorseDictionary import morse_code
 # Sample input        -->     Return Value
 # morse_encoder("A")        -->     ".-"
 # morse_encoder("PYTHON")   -->     ".--.-.---....----."
-def morse_encoder(msg: str):
+def morse_encoder(str_msg: str):
     # TODO: Write the code for morse_encoder().
 
-    return msg
+    return ""
 
 
 # Create a function called morse_decoder(msg: str) that takes a single string parameter (in morse code) and converts it into the
@@ -27,7 +27,7 @@ def morse_encoder(msg: str):
 # Sample input                          -->     Return Value
 # morse_decoder(".-")                   -->     "A"
 # morse_decoder(".--.-.---....----.")   -->     "PYTHON"
-def morse_encoder(morse_msg: str):
+def morse_decoder(morse_msg: str):
     # TODO: Write the code for morse_decoder().
 
     return ""
