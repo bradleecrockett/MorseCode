@@ -16,8 +16,8 @@ from MorseDictionary import morse_code
 # Sample input        -->     Return Value
 # morse_encoder("A")        -->     ".-"
 # morse_encoder("PYTHON")   -->     ".--.-.---....----."
-def morse_encoder(str_msg: str):
-    # TODO: Write the code for morse_encoder().
+def morse_encoder(str_msg):
+    # TODO: Write the code for the morse_encoder function.
 
     return ""
 
@@ -27,19 +27,19 @@ def morse_encoder(str_msg: str):
 # Sample input                          -->     Return Value
 # morse_decoder(".-")                   -->     "A"
 # morse_decoder(".--.-.---....----.")   -->     "PYTHON"
-def morse_decoder(morse_msg: str):
-    # TODO: Chalege - Write the code for morse_decoder().
+def morse_decoder(morse_msg):
+    # TODO: Challenge - Write the code for the morse_decoder function.
 
     return ""
 
 
 def main():
-    # TODO: Write at least 4 tests to verify that morse_encoder() works.
+    # TODO: Write at least 4 tests to verify that your morse_encoder function works.
     print("Morse Encoder Testing")
-
-
-    # TODO: Challenge - Write at least 4 tests to verify that morse_decoder() works.
+    print("The message 'SOS' expected result: "...---...", "\n\tActual result: ", morse_encoder("SOS"))
+    
+    print("\n\n")
     print("Morse Decoder Testing")
+    print("The message '...---...' expected result: "SOS", "\n\tActual result: ", morse_encoder("...---..."))
 
-
-main()
+if __name__ == "__main__": main()
