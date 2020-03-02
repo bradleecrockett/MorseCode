@@ -40,7 +40,7 @@ morse_code = {
 "9" : "----.",
 "." : ".-.-.-",
 "," : "--..--",
-" " : ""        # Ignore spaces
+" " : " "        # Leave spaces as spaces
 }
 
 # Thanks to www.python-course.eu for saving me lots of typing
