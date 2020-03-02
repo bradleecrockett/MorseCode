@@ -26,7 +26,7 @@ You may want to look up an online coverter tool to help you determine the proper
 def main():
     # TODO: Write at least 4 tests to verify that your morse_encoder function works.
     print("Morse Encoder Testing")
-    print("The message 'SOS' expected result: '... --- ...'", "\n\tActual result: ", morse_encoder("SOS"))
+    print("The message 'S O S' expected result: '... --- ...'", "\n\tActual result: ", morse_encoder("S O S"))
 
 
 if __name__ == "__main__": main()
@@ -40,7 +40,7 @@ make this work...
 | Sample input      | Return Value |
 | --- | --- |
 | morse_decoder(".-")                  |     "A" |
-| morse_decoder(".--. -.-- - .... --- -.")  |     "PYTHON" |
+| morse_decoder(".--. -.-- - .... --- -.")  |     "P Y T H O N" |
 
 ```python
 def morse_decoder(morse_msg):
@@ -56,7 +56,7 @@ Add at least 4 tests to the main() method to test the decoder function that you 
 ```python
     
     print("Morse Decoder Testing")
-    print("The message '... --- ...' expected result: 'SOS'", "\n\tActual result: ", morse_decoder("... --- ..."))
+    print("The message '... --- ...' expected result: 'S O S'", "\n\tActual result: ", morse_decoder("... --- ..."))
     
 ```
 

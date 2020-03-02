@@ -26,7 +26,7 @@ def morse_encoder(str_msg):
 # corresponding string message.  The message can be returned in all caps.
 # Sample input                          -->     Return Value
 # morse_decoder(".-")                   -->     "A"
-# morse_decoder(".--. -.-- - .... --- -.")   -->     "PYTHON"
+# morse_decoder(".--. -.-- - .... --- -.")   -->     "P Y T H O N "
 def morse_decoder(morse_msg):
     # TODO: Challenge - Write the code for the morse_decoder function.
 
@@ -36,10 +36,10 @@ def morse_decoder(morse_msg):
 def main():
     # TODO: Write at least 4 tests to verify that your morse_encoder function works.
     print("Morse Encoder Testing")
-    print("The message 'SOS' expected result: '... --- ...'", "\n\tActual result: ", morse_encoder("SOS"))
+    print("The message 'S O S' expected result: '... --- ...'", "\n\tActual result: ", morse_encoder("S O S"))
     
     print("\n\n")
     print("Morse Decoder Testing")
-    print("The message '... --- ...' expected result: 'SOS'", "\n\tActual result: ", morse_decoder("... --- ..."))
+    print("The message '... --- ...' expected result: 'S O S'", "\n\tActual result: ", morse_decoder("... --- ..."))
 
 if __name__ == "__main__": main()
