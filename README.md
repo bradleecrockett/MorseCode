@@ -1,6 +1,10 @@
 # MorseCode
 Morse code encoder and decoder using python dictionaries.
 
+## Intro to Dictionaries
+Watch the video https://youtu.be/wa1XcMSBWdA and follow along on `dictionary_notes.py`. You will use a dictionary in your morse code encoder and decoder program.
+
+
 ## Morse Encoder Function
 Create a function called morse_encoder(str_msg) that takes a single string parameter and converts it into the
 corresponding morse code message.  Note that the dictionary keys are all capital letters
